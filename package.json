@@ -1,0 +1,35 @@
+{
+  "name": "qa-ai-framework",
+  "version": "1.0.0",
+  "description": "AI-enhanced QA automation framework for production testing",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui/",
+    "test:api": "playwright test tests/api/",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "generate:report": "node src/reporters/html-reporter.js",
+    "analyze:failures": "node src/ai/failure-analyzer.js",
+    "generate:tests": "node src/ai/test-generator.js",
+    "lint": "eslint src/ tests/",
+    "coverage": "nyc playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "axios": "^1.7.2",
+    "chalk": "^4.1.2",
+    "dayjs": "^1.11.11",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "handlebars": "^4.7.8",
+    "open": "^8.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.3.0"
+  },
+  "keywords": ["qa", "automation", "playwright", "ai", "testing"],
+  "license": "MIT"
+}
