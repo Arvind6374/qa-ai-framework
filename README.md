@@ -2,7 +2,7 @@
 
 > **Production-ready, AI-enhanced test automation for engineering teams transitioning from manual to intelligent testing.**
 
-[![CI Pipeline](https://github.com/yourhandle/qa-ai-framework/actions/workflows/qa-pipeline.yml/badge.svg)](https://github.com/yourhandle/qa-ai-framework/actions)
+[![CI Pipeline](https://github.com/Arvind6374/qa-ai-framework/actions/workflows/qa-pipeline.yml/badge.svg)](https://github.com/Arvind6374/qa-ai-framework/actions)
 ![Playwright](https://img.shields.io/badge/Playwright-1.44-green)
 ![Node](https://img.shields.io/badge/Node-20-blue)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
@@ -187,7 +187,7 @@ push / PR
 ### Installation
 
 ```bash
-git clone https://github.com/yourhandle/qa-ai-framework
+git clone https://github.com/Arvind6374/qa-ai-framework
 cd qa-ai-framework
 npm install
 npx playwright install --with-deps
